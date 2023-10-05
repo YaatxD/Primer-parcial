@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b6f4ff;
+    margin: 0;
+    padding: 0;
+    color: #000; /* Color del texto principal en negro */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #2bb1ff;
+    color: #fff; /* Color del texto en blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Estilos para el catálogo de mochilas */
+#mochilas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.mochila {
+    width: calc(50% - 10px); /* Establecer el ancho de la mochila */
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.mochila h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.mochila img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.mochila p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilos CSS para las tarjetas */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid #98bbe9;
+    padding: 10px;
+    width: calc(50% - 20px); /* Columna de 2 en 2 */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.card img {
+    max-width: 30%;
+    height: auto;
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario sobre Redes Sociales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Redes Sociales</h1>
+    <img src="./images/1.jpg">
+
+    <form action="procesar_formulario.php" method="post">
+        <!-- Pregunta 1 -->
+        <div class="pregunta">
+            <label for="pregunta1">1. ¿Cuál es tu red social favorita?</label>
+            <input type="text" id="pregunta1" name="respuesta1" required>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="pregunta">
+            <label for="pregunta2">2. ¿Con qué frecuencia usas las redes sociales?</label>
+            <select id="pregunta2" name="respuesta2" required>
+                <option value="diariamente">Diariamente</option>
+                <option value="semanalmente">Semanalmente</option>
+                <option value="mensualmente">Mensualmente</option>
+                <option value="raramente">Raramente</option>
+            </select>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="pregunta">
+            <label for="pregunta3">3. ¿Para qué principalmente utilizas las redes sociales?</label>
+            <textarea id="pregunta3" name="respuesta3" rows="3" required></textarea>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="pregunta">
+            <label>4. ¿Crees que las redes sociales son útiles para tu vida profesional?</label>
+            <input type="radio" id="respuesta4_si" name="respuesta4" value="Sí" required>
+            <label for="respuesta4_si">Sí</label>
+            <input type="radio" id="respuesta4_no" name="respuesta4" value="No" required>
+            <label for="respuesta4_no">No</label>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="pregunta">
+            <label for="pregunta5">5. ¿Has experimentado algún impacto negativo en tu bienestar debido al uso de redes sociales?</label>
+            <input type="text" id="pregunta5" name="respuesta5" required>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="pregunta">
+            <label>6. ¿Sigues a personas influyentes en las redes sociales?</label>
+            <input type="radio" id="respuesta6_si" name="respuesta6" value="Sí" required>
+            <label for="respuesta6_si">Sí</label>
+            <input type="radio" id="respuesta6_no" name="respuesta6" value="No" required>
+            <label for="respuesta6_no">No</label>
+        </div>
+
+        <!-- Pregunta 7 -->
+        <div class="pregunta">
+            <label for="pregunta7">7. ¿Qué tipo de contenido te gusta más en las redes sociales? (Ejemplo: imágenes, videos, texto)</label>
+            <input type="text" id="pregunta7" name="respuesta7" required>
+        </div>
+
+        <!-- Pregunta 8 -->
+        <div class="pregunta">
+            <label>8. ¿Alguna vez has participado en campañas o movimientos sociales en línea?</label>
+            <input type="radio" id="respuesta8_si" name="respuesta8" value="Sí" required>
+            <label for="respuesta8_si">Sí</label>
+            <input type="radio" id="respuesta8_no" name="respuesta8" value="No" required>
+            <label for="respuesta8_no">No</label>
+        </div>
+
+        <!-- Pregunta 9 -->
+        <div class="pregunta">
+            <label for="pregunta9">9. ¿Qué consejos darías a alguien que está empezando a usar las redes sociales?</label>
+            <textarea id="pregunta9" name="respuesta9" rows="3" required></textarea>
+        </div>
+
+        <!-- Pregunta 10 -->
+        <div class="pregunta">
+            <label for="pregunta10">10. ¿Cuál es tu red social menos favorita y por qué?</label>
+            <input type="text" id="pregunta10" name="respuesta10" required>
+        </div>
+
+        <button type="submit">Enviar Respuestas</button>
+    </form>
+</body>
+</html>

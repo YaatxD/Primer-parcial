@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Cita Médica</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Agendar Cita Médica</h1>
+        <img src="./images/1.jpg"/>
+    </header>
+
+    <main>
+        <form id="citaForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <form id="citaForm">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+            <form id="citaForm">
+                <label for="motivo">Motivo:</label>
+                <input type="text" id="motivo" name="motivo" required><br><br>
+
+            <label for="fecha">Fecha de la cita:</label>
+            <input type="date" id="fecha" name="fecha" required><br><br>
+
+            <label for="hora">Hora de la cita:</label>
+            <input type="time" id="hora" name="hora" required><br><br>
+
+            <button type="submit">Agendar Cita</button>
+        </form>
+    </main>
+</body>
+</html>
