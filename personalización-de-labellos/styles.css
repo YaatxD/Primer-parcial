@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    background-color: #d490b2;
+    padding: 40px 0;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la imagen de encabezado */
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+/* Estilos para los títulos de sección */
+form h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Estilos para las áreas de texto */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para las etiquetas de radio y sus respectivas etiquetas */
+input[type="radio"] {
+    display: none;
+}
+
+label[for^="acabado1-"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #e05b71;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+label[for^="acabado1-"]:hover {
+    background-color: #3d302d;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    background-color: #52df46;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #d04222;
+}

@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilos para el encabezado hero */
+.hero {
+    background-image: url('./images/1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Estilos para la sección "Sobre Nosotros" */
+.about {
+    background-color: #7a54c0;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Estilos para la sección "Próximos Eventos" */
+.events {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.events h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #804471;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #6b2a91;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

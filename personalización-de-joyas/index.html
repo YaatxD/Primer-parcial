@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalización de Joya</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Personalización de Joya</h1>
+    <img src="./images/1.jpg">
+
+    <div>
+        <p>Puede personalizar cualquier joya con cualquier nombre o forma, y diferente precio.</p>
+        <img src="./images/2.jpg">
+    </div>
+
+    <section>
+        <label for="grabado">Ingrese su grabado personalizado:</label>
+        <input type="text" id="grabado">
+    </section>
+
+    <button onclick="personalizarJoya()">Personalizar</button>
+
+    <script>
+        function personalizarJoya() {
+            const grabado = document.getElementById("grabado").value;
+
+            alert(`Joya personalizada con el grabado: "${grabado}"`);
+        }
+    </script>
+</body>
+</html>
